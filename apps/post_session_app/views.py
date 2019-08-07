@@ -18,7 +18,6 @@ def process(request):
 
 def success(request):
     # This tells the user the form was successfully processed
-    print("/////////// SUCCESS ROUTE HIT //////////")
     context = {
         'flavor_of_the_month' : 'Cookies & Cream'
     }
